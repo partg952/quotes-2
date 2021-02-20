@@ -14,6 +14,7 @@ var firebaseConfig = {
   let button = document.getElementById('sign-up')
   let email = document.getElementById('email')
   let password = document.getElementById('password')
+  let signin = document.getElementById('account')
 
   button.addEventListener('click' , function(){
       let gmail = email.value.replace("@gmail.com" , "")
@@ -29,4 +30,8 @@ var firebaseConfig = {
 
       })
     console.log('clicked')
+  })
+
+  signin.addEventListener('click' , function(){
+    window.location.href = 'signIn.html'
   })

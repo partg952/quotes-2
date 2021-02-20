@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Reggae+One&display=swap');
+
+body{
+    background-image:url(Mojito.jpg);
+    background-attachment:fixed;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-container{
+    background-color:transparent;
+    display: flex;
+    right: 0;
+    height: 30%;
+    text-align: center;
+    margin: 0%;
+}
+
+#nav{
+    background-color:transparent;
+    display:flex;
+    width:33.3%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#list{
+    display: flex;
+    list-style-type: none;
+    text-align: center;
+}
+
+#plus{
+    margin-right: 20px;
+    font-size: 20px;
+    background-color: transparent;
+    border: 2px solid;
+    border-color: transparent;
+    box-shadow:4px 4px black ;
+    transition: all 0.3s ease-in-out;
+}
+
+#sign-out{
+    font-size: 15px;
+    padding: 5px;
+    background-color:transparent;
+    border: 2px solid;
+    border-color: transparent;
+    box-shadow: 4px 4px black;
+    transition: all 0.3s ease-in-out;
+}
+
+.image-section{
+    width: 33.3%;
+}
+
+#title-image{
+    height:100px;
+    width: 100px;
+    border: 2px solid;
+    border-radius: 50%;
+    border-color: grey;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 5px 5px black;
+}
+
+#title-image:hover{
+    height:100px;
+    width: 100px;
+    border: 2px solid;
+    border-radius: 50%;
+    border-color: black;
+    box-shadow:2px 2px black;
+}
+
+.try{
+    background-color: transparent;
+    width:33.3%;
+}
+
+h1{
+    visibility: hidden;
+}
+
+#plus:hover{
+    margin-right: 20px;
+    font-size: 20px;
+    background-color: transparent;
+    border: 2px solid;
+    border-color: black;
+    box-shadow:2px 2px black ;
+}
+
+
+#sign-out:hover{
+    font-size: 15px;
+    padding: 5px;
+    background-color:transparent;
+    border: 2px solid;
+    border-color: black;
+    box-shadow: 2px 2px black;
+    
+}
+
+.main-container{
+    height: 100vh;
+    text-align: center;
+}
+
+.styles{
+    font-family: 'Reggae One', cursive;
+}
+
+#prog{
+    margin-top:20px;
+}
