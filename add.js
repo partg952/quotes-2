@@ -41,5 +41,5 @@ button.addEventListener('click' , function(){
 
 back.addEventListener('click' , function(){
     console.log('clicked')
-    window.location.href = "main.html"
+    window.location.href = "index.html"
 })

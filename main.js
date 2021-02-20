@@ -1,3 +1,4 @@
+const { default: firebase } = require("firebase");
 
 
 var firebaseConfig = {
@@ -17,6 +18,10 @@ let signout = document.getElementById('sign-out')
 let data = firebase.database();
 let div = document.getElementById('main-container')
 let prog = document.getElementById('prog')
+
+if(firebase.auth().currentUser.uid==null){
+    window.location.href = "sign_up.html"
+}
 
 data.ref().child('quotes').child("num").on('value' , function(snapshot){
     let num = snapshot.val()

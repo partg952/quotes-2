@@ -25,7 +25,7 @@ var firebaseConfig = {
           console.log('Signed Up')
 
           database.ref().child('users').child(gmail).child('email').set(user.user.email).then(function(){
-              window.location.href = "main.html"
+              window.location.href = "index.html"
           })
 
       })

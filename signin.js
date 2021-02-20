@@ -21,6 +21,6 @@ var firebaseConfig = {
       auth.signInWithEmailAndPassword(email.value,password.value)
       .then(function(){
           console.log('signed in')
-          window.location.href = "main.html"
+          window.location.href = "index.html"
       })
   })
