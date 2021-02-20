@@ -1,4 +1,4 @@
-const { default: firebase } = require("firebase");
+
 
 
 var firebaseConfig = {
