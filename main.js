@@ -1,6 +1,4 @@
 
-
-
 var firebaseConfig = {
     apiKey: "AIzaSyCosExMs5hv0ivr6DQAkyoXcbcVVTQGRbY",
     authDomain: "quotesapp-89280.firebaseapp.com",
@@ -19,10 +17,12 @@ let data = firebase.database();
 let div = document.getElementById('main-container')
 let prog = document.getElementById('prog')
 
-if(firebase.auth().currentUser.uid==null){
-    window.location.href = "sign_up.html"
-}
+// if(firebase.auth().currentUser.uid==null){
+//     window.location.href = "sign_up.html"
+// }
 
+
+ 
 data.ref().child('quotes').child("num").on('value' , function(snapshot){
     let num = snapshot.val()
     console.log(snapshot.val())

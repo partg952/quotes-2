@@ -16,7 +16,7 @@ body{
     margin-left: auto;
     margin-right: auto;
     margin-top: 100px;
-    box-shadow: 20px 20px black;
+    box-shadow: 6px 6px black;
     transition: all 0.3s ease-in-out;
 }
 
@@ -110,7 +110,7 @@ body{
     margin-left: auto;
     margin-right: auto;
     margin-top: 100px;
-   box-shadow: 2px 2px black;
+   box-shadow: 20px 20px black;
 } 
 
 h1{
@@ -128,6 +128,15 @@ h1{
     color: white;
     text-shadow: 6px 6px black;
     font-family: 'Reggae One', cursive;
+}
+
+#account{
+    text-shadow: 4px 4px black;
+    transition: all 0.3s ease-in-out;
+}
+
+#account:hover{
+    text-shadow: 6px 6px black;
 }
 
 

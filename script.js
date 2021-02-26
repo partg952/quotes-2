@@ -28,6 +28,8 @@ var firebaseConfig = {
               window.location.href = "index.html"
           })
 
+      }).catch(function(){
+        alert('Sign Up Falied')
       })
     console.log('clicked')
   })
